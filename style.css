@@ -1,0 +1,277 @@
+/*********************************************************
+Authors: JV Estolas & Sonia Hashim
+Date: 04.01.15
+
+LESS for Wordstream Pure HTML/CSS Assign.
+***********************************************************/
+/*********************************************************
+	CONSTANTS 
+***********************************************************/
+/*********************************************************
+	MIX-INS 
+***********************************************************/
+/*********************************************************
+	STYLES
+***********************************************************/
+* {
+  font-family: sans-serif;
+  line-height: 1.2em;
+  letter-spacing: .2px;
+}
+
+h3 {
+  color: navy;
+}
+
+#wrapper {
+  width: 970px;
+}
+#header {
+  display: block;
+  background-color: white;
+}
+
+#logo {
+  background-color: white;
+  width:450px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#logo * {
+  display: inline-block;
+  vertical-align: top;
+  color: navy;
+}
+
+#logo .gray {
+  color: gray;
+}
+
+#logo h1 {
+  font-size: 2.6em;
+  font-weight: 500;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#logo img {
+  margin: 15px 0 0 15px;
+}
+
+#header ul {
+  display: inline-block;
+  vertical-align:top;
+  border: 1px solid;
+  border-top: none;
+  border-radius: 5px;
+  padding: 5px 0 10px 0;
+  margin: 5px 15px 0 30px;
+  
+}
+
+#bottom {
+  background: -moz-linear-gradient(#EEE 2%, white 98%);
+}
+
+#header ul li {
+  display: inline;
+  border-left: 1px solid darkgrey;
+  padding: 10px 10px 0 10px;;
+  font-size: .8em;
+  margin-bottom: 10px;
+
+}
+#header ul :first-child {
+  border: none;
+}
+
+h2 {
+  background:-moz-linear-gradient(navy, blue, navy);
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 40px;
+  padding: 15px;
+  color: white;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+#sidebar {
+  display: inline-block;
+  width: 290px;
+  padding: 80px 10px 10px 10px;
+  
+}
+
+
+
+#sidebar input {
+  background: -moz-linear-gradient(lightblue, navy); 
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  color: white;
+  margin-top: 10px;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+#sidebar :nth-child(6) {
+  width:155px;
+  padding: 5px 0px 20px 5px;
+  font-size: .8em;  
+  margin: 0 auto 0 auto;
+}
+
+#sidebar #trial {
+  background: -moz-linear-gradient(orange, orangered);  
+}
+
+#sidebar *{
+  display: block;
+  margin: auto;
+}
+
+#spacer {
+  height: 2px;
+  width: ;
+  background-color: darkgray;
+  margin-bottom: 20px;
+}
+
+#sidead {
+  background-image:url(images/left_content_ad.png);
+  background-repeat: no-repeat center center;
+/*   background: -moz-radial-gradient(red, black gray); */
+  background-size: 100%;
+  height: 280px;
+  width: 240px;
+  padding: 10px;
+  -moz-background-size: contain;
+  border-top: 1px solid lightgray;
+  font-weight: bold;
+  color: #555555;
+}
+
+#sidead p {
+  padding-top: 5px;
+}
+
+#sidead input {
+  background: -moz-linear-gradient(lightblue, navy);  
+  box-shadow: 0 3px 3px 3px #888888;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  color: white;
+  margin-top: 10px;
+  font-size: .9em;
+  font-weight: 400;
+}
+
+#main_content {
+  display: inline-block;
+  vertical-align: top;
+  width: 655px;
+}
+
+#contact {
+  border-bottom: 5px solid darkgray;
+  padding: 5px 0 5px 0;
+}
+
+#contact * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#phoneimg {
+  margin-left: 340px;
+}
+
+#phone {
+  width: 200px;
+  font-size: .8em;
+}
+
+#phone * {
+  margin: 0;
+}
+
+h6 {
+  display: block;
+  font-size: 1.6em;
+  color: #0000FF;
+}
+
+h5 {
+  color: blue;
+  font-size: 1em;
+}
+
+h4 {
+  color: orangered;
+  font-weight: 700;
+  font-size: .9em;
+  padding-top: 20px;
+}
+
+#sidebar p {
+  font-size: .8em;
+}
+
+#sidebar a {
+  display: inline;
+  text-decoration: none;
+}
+
+#contentad  {
+  padding: 5px;
+  border: 5px solid lightblue;
+  margin: 0 5px 0 5px;
+}
+
+#contentad img {
+  display: inline-block;
+  vertical-align: top;
+  width: 80px;
+}
+
+#contentad input {
+  background: -moz-linear-gradient(yellowgreen, green, yellowgreen);  
+  border: 2px solid olive;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: 400;
+}
+#innerad {
+  display: inline-block;
+  vertical-align: top;
+  width: 525px;
+}
+#innerad h3 {
+  margin: 0;
+}
+
+#header input {
+  background: -moz-linear-gradient(lightblue, blue);  
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 25px;
+  color: white;
+  margin-top: 10px;
+}
+
+a {
+  color: navy;
+}
